@@ -20,7 +20,7 @@ class Parser:
 
     def parse_label(self):
         return self.consume('LABEL').value
-    
+
     def parse_arrow(self):
         self.consume('ARROW')
 
